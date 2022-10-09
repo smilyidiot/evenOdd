@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.bg-cont {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 100px;
+}
+
+.head {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-size: 50px;
+}
+
+p {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 12px;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.bton {
+  font-family: 'Roboto';
+  border-radius: 5px;
+  padding: 10px;
+  width: 120px;
+}
